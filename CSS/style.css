@@ -23,12 +23,8 @@ li {
   opacity: 0.8;
   width:100vw;
   height: 50vh;
-  margin-left:auto;
-  margin-right:auto;
   display:flex;
   align-items:center;
-  display: flex;
-  flex-direction: column;
   }
 
 h1{
@@ -68,16 +64,17 @@ h1{
 }
 
 .nation{
-  margin-left: 0;
-  margin-right: 0;
-  display: table;
+  /* margin-left: 0;
+  margin-right: 0; */
+  display: flex;
+  flex-wrap: wrap;
   width: 750;
   letter-spacing: 1px;
 }
 
 
 h3{
-  display: table-cell;
+  /* display: table-cell; */
   width: 340px;
   height: 290px;
   float: left;
