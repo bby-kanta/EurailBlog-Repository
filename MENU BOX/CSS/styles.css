@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+@charset"UTF-8";
+ 
+body{
+  margin: 0px;
+}
+
+header{
+  /* background-color:#81a0e0; */
+  /* padding-top:32px;
+  padding-bottom:32px; */
+}
+
+li {
+  list-style: none;
+}
+
+.container{
+  background-image: url(../../CSS/dubro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  width:100vw;
+  height: 50vh;
+  display:flex;
+  align-items:center;
+  }
+
+h1{
+  color: rgb(255, 255, 255);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.info{
+ margin: 0 auto;
+}
+
+.info p{
+  color: white;
+}
+
+
+.mainbrock{
+  margin-top: 100px;
+  /* margin-left: 300px; */
+}
+
+.mainpages {
+  width: 1200px;
+  margin-left: 350px;
+  display: flex;
+}
+
+/* .profbox{
+  display: table-cell;
+  float: right;
+} */
+
+.profbox{
+  width: 350px;
+  height: 419;
+  margin-top: 100px;
+  border: outset #a8abc9 2px;
+}
+
+.nation{
+  /* margin-left: 0;
+  margin-right: 0; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 750;
+  letter-spacing: 1px;
+}
+
+
+h3{
+  /* display: table-cell; */
+  width: 340px;
+  height: 290px;
+  border: outset #a8abc9 2px;
+  margin: 10px;
+  color: rgb(99, 93, 93);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* h3が上に動くアニメーョン */
+h3 {
+  -webkit-transform: translate(0);
+  transform: translate(0) ;
+  -webkit-transition: .3s ease-in-out;
+  transition: .4s ease-in-out;
+}
+h3:hover {
+  -webkit-transform: translateY(-10px) scale(1);
+  transform: translateY(-10px) scale(1);
+  opacity: 0.5;
+}
+
+/* https://ao-system.net/javascript/code/1002/ */
+/* text-align: center;でなぜ真ん中にいかないのか */
+#toggleMenuButton{
+  margin-left: 45%; 
+}
+
+#toggleMenu{
+  overflow:hidden;
+  transition: all 0.4s;
+}
+
+.menubox{
+  display: flex;
+  width: 1240px;
+  height: 48px;
+  margin-left: 350;
+  padding-inline-start: 0;
+}
+
+.menubox > li{
+  list-style: none;
+  margin-right: 120px;
+  font-size: 23px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-left: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+}
+
+.menubox > li > a{
+  color: #81a0e0;
+  text-decoration: none;
+}
+
+
+
+.profpicture{
+  text-align: center;
+  /* width: 350px;
+  padding-left: auto;
+  padding-right: auto; */
+}
+
+.kanta{
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.profintro{
+  color: rgb(99, 93, 93);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.snsmenu{
+  width: 350px;
+  height: 80px;
+  background-color: pink;
+  display: flex;
+}
+
+
+.snsimages li{
+  float: left;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.instabox{
+  width: 350px;
+  margin-top: 100px;
+}
+
