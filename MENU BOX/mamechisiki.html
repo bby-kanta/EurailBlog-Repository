@@ -1,0 +1,144 @@
+<!DOCK TYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>旅の豆知識/かんたのEurailブログ</title>
+  <meta name="description" content="海外旅行に1回しか行ったことがない普通の文系男子大学生がユーレイルパスを使ってヨーロッパ16カ国を一人で周遊した経験です">
+  <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container"> 
+      <div class="info">
+        <h1>ヨーロッパ大好き男かんたのユーレイル旅ブログ</h1>
+        <p>-20歳の大学生が人生二度目の海外旅行にしてユーレイルパスでヨーロッパ一人旅をした自己満ブログです-</p>
+       </div>
+    </div>
+  </header>
+
+  <div class="menubox1"> 
+    <ul class="menubox"> 
+      <li>
+        <a href="prof.html">プロフィール</a>
+      </li>
+  
+      <li>
+        <a href="europe.html">ヨーロッパ一周</a>
+      </li>
+  
+      <li>
+        旅の豆知識
+      </li>
+  
+      <li>
+        <a href="otoiawase.html">お問い合わせ</a>
+      </li>
+    </ul>
+  </div>  
+
+    <div class="mainpages">
+
+        <div class="mainbrock">
+    
+        <h2>旅の豆知識</h2>
+
+        <!-- 各国のブログへのハイパーリンクです -->
+        <div class="nation"> 
+
+            <div class="nations">
+                <a href="nation/uran.html">
+                <h3>
+                <img src="../img/miserarenaiyo.jpeg" width="340" height="194" alt="ウランバートル空港の写真">
+                    準備中です。
+                </h3>
+                </a>
+            </div>
+
+            <div class="nations">
+                <a href="nation/uran.html">
+                <h3>
+                <img src="../img/miserarenaiyo.jpeg" width="340" height="194" alt="ウランバートル空港の写真">
+                    準備中です。
+                </h3>
+                </a>
+            </div>
+        
+            
+            </div>
+        </div>
+
+   
+  
+  <div class="rightbrock">
+    <div class="profbox">
+      <div class="profpicture">
+        <img src="../img/kanta.jpg" class="kanta" width="110" height="110" alt="勘太の写真">
+        <div class="profname">かんた</div>
+      </div>
+      <div class="profintro">大学３年生のときにスペインに旅行に行きヨーロッパにハマり、半年後にヨーロッパ15カ国を周遊した。そのときの体験をブログにまとめました。プログラミングを現在独学で勉強中。
+      </div>
+      <div class="snsmenu">
+          <ul class="snsimages">
+            <li>
+              <a href="https://www.instagram.com/momotaro928/?hl=ja">
+               <img src="../img/insta.png" width="25px" height="25px">
+              </a>
+            </li>
+    
+            <li>
+              <img src="../img/twitter.png" width="25px" height="25px">
+            </li>
+    
+            <li>
+              <img src="../img/facebook.png" width="25px" height="25px">
+            </li>
+    
+            <li>
+              <img src="../img/LINE.png" width="25px" height="25px">
+            </li>
+    
+          </ul>
+      </div>
+    </div>
+  
+    <!-- SnapWidget -->
+    <div class="instabox">
+      <h2>instagram</h2>
+      <script src="https://snapwidget.com/js/snapwidget.js"></script>
+      <iframe src="https://snapwidget.com/embed/804459" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:350px; "></iframe>
+    </div>
+  </div>  
+</div>
+
+</div>
+
+<!-- ここからフッターです -->
+    <footer>
+      <p>@2019-2020 かんたのユーレイル旅ブログ</p>
+    </footer>
+<script>
+
+// https://ao-system.net/javascript/code/1002/
+(function(window,document){
+    var _toggleMenuButton = document.getElementById('toggleMenuButton');
+    var _toggleMenu = document.getElementById('toggleMenu');
+    var _clientH;
+    init();
+    function init() {
+        _toggleMenu.style.height = 'auto';
+        _clientH = _toggleMenu.clientHeight;
+        _toggleMenu.style.height = '0px';
+        _toggleMenuButton.addEventListener('click',function(){clickToggle();},false);
+    }
+    function clickToggle() {
+        var lastH = _toggleMenu.style.height;
+        _toggleMenu.style.height = (lastH == '' || lastH == '0px') ? _clientH + 'px' : '0px';
+    }
+})(window,document);
+
+</script>
+
+</body>
+</html>
