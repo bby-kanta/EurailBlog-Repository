@@ -52,6 +52,37 @@ h1{
   display: flex;
 }
 
+.form {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.forms {
+  width: 450px;
+  height: 40px;
+}
+
+.inquiryform {
+width: 450px;
+height: 300px;
+}
+
+.btn-submit {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: gray;
+  font-size: 20px;
+}
+
+
+
 .profintroduce {
     width: 700;
     font-family: 'M PLUS Rounded 1c', sans-serif;
