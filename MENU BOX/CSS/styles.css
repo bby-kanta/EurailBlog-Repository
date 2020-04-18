@@ -104,6 +104,7 @@ h3:hover {
 }
 
 #toggleMenu{
+  max-width: 100%;
   overflow:hidden;
   transition: all 0.4s;
 }
