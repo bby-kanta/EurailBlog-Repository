@@ -16,7 +16,6 @@
   function clickToggle() {
       let lastH = _toggleMenu.style.height;
       _toggleMenu.style.height = (lastH == '' || lastH == '0px') ? _clientH + 'px' : '0px';
-      console.log(_toggleMenuButton);
       if(_toggleMenuButton.innerHTML == 'さらに表示'){
         _toggleMenuButton.innerHTML = '閉じる';
       } else {
@@ -56,3 +55,5 @@ function refresh(){
 }
 
 recalc();
+
+
