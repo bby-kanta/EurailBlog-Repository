@@ -6,7 +6,61 @@
   li {
     list-style: none;
   }
+
+  body{
+    margin: 0px;
+  }
+
+/* ハンバーガーメニュー */
+  .fixcontainer{
+    max-width: 100%;
+    width: 750px;
+    height: 30px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url(../img/black.jpg);
+    z-index: 999;
+  }
   
+  .fixcontainer img{
+    margin-right: 10px;
+    width: 28px;
+    height: 20px;
+  }
+
+  #nav {
+    position: fixed;
+    right: -350px;
+    top: 30px;
+    width: 270px;
+    height: 100%;
+    padding: 24px 24px 0 24px;
+    background: #000;
+    color: white;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav li a {
+    display: block;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #114d60;
+    text-decoration: none;
+    color: #fff;
+}
+#nav li a:hover {
+    background: #81a0e0;
+}
+
+.show {
+  transform: translate3d(-350px, 0, 0);
+}
+  
+/* タイトル */
   .container{
     background-image: url(dubro.jpg);
     background-repeat: no-repeat;
@@ -16,7 +70,7 @@
     max-width: 100%;
     width: 100%;
     /* height: 40vh; */
-    height: 30%;
+    height: 35%;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -56,7 +110,7 @@
   
   .menubox > li{
     list-style: none;
-    font-size: 18px;
+    font-size: 15px;
     border-left: 1px solid #efefef;
     border-right: 1px solid #efefef;
   }
@@ -242,6 +296,18 @@
 
   li {
     list-style: none;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  #nav{
+    display: none;
   }
   
   .container{
